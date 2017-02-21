@@ -24,7 +24,6 @@ RSpec.configure do |c|
   describe 'tests' do
     include_examples 'docker-ubuntu-16'
     include_examples 'docker-ubuntu-16-apache-2.4'
-    include_examples 'php-7.0-tests'
   end
 
 end
