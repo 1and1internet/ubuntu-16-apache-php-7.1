@@ -27,4 +27,5 @@ RUN \
   apt-get remove -y python-software-properties software-properties-common && \
   apt-get autoremove -y && \
   rm -rf /var/lib/apt/lists/* && \
-  chmod 777 -R /var/www
+  chmod 777 -R /var/www && \
+  apache2ctl -t
