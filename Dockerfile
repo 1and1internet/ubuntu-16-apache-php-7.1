@@ -26,9 +26,4 @@ RUN \
   apt-get autoremove -y && \
   rm -rf /var/lib/apt/lists/* && \
   chmod 777 -R /var/www
-
-  # rm -rf /tmp/* && \
-  # mkdir -m 777 /tmp/sockets && \
-  # rm -rf /var/lib/apt/lists/* && \
-  # chmod -R 755 /hooks /init
 EXPOSE 8080
