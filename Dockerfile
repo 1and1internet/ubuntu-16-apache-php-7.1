@@ -28,4 +28,3 @@ RUN \
   apt-get autoremove -y && \
   rm -rf /var/lib/apt/lists/* && \
   chmod 777 -R /var/www
-EXPOSE 8080
